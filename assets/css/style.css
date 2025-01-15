@@ -1619,7 +1619,7 @@ img{
     color: #fff;
 }
 
-form {
+.page_right_center form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1628,7 +1628,7 @@ form {
     align-items: center;
 }
 
-form .form_input input {
+.page_right_center form .form_input input {
     padding: 9px 11px;
     width: 400px;
     border-radius: 8px;
@@ -1636,7 +1636,7 @@ form .form_input input {
     outline: none;
 }
 
-.inp_button button {
+.page_right_center .inp_button button {
     all: unset;
     background: #ffdf33;
     padding: 9px 51px;
@@ -1645,13 +1645,13 @@ form .form_input input {
     margin-top: 3rem;
 }
 @media screen and (max-width:789px) {
-    form .form_input input{
+    .page_right_center form .form_input input{
         width: 100%;
     }
     .page_design_right {
         min-width: 100%;
     }
-    .form_input{
+    .page_right_center .form_input{
         width: 100%;
     }
     .page_design_left{
