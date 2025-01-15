@@ -1571,3 +1571,92 @@ img{
     }
 }
 /* checkout page checkout page checkout page checkout page  */
+
+
+
+
+/* signup page signup page signup page signup page signup page signup page */
+
+.page_design {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.page_design_right {
+    background: #16448b;
+    padding: 45px;
+    width: 50%;
+    min-width: 350px;
+    
+}
+
+.page_design_left {
+    width: 50%;
+}
+
+.page_design_left img {
+    width: 550px;
+    /* height: 100%; */
+}
+
+.page_right_top {
+    width: 215px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.page_right_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.page_right_center h2 {
+    color: #fff;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+form .form_input input {
+    padding: 9px 11px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.inp_button button {
+    all: unset;
+    background: #ffdf33;
+    padding: 9px 51px;
+    border-radius: 6px;
+    /* color: #fff; */
+    margin-top: 3rem;
+}
+@media screen and (max-width:789px) {
+    form .form_input input{
+        width: 100%;
+    }
+    .page_design_right {
+        min-width: 100%;
+    }
+    .form_input{
+        width: 100%;
+    }
+    .page_design_left{
+        display: none;
+    }
+}
+
+/* signup page signup page signup page signup page signup page signup page */
